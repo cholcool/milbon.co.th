@@ -222,22 +222,20 @@ input, select {
     font-size: 10px;
     font-weight: unset;
     position: absolute;
+    background-color: black;
 }
 
 .btn .badge {
     position: absolute;
     top: -7px;
     right: -2px;
-    background-color: red;
 }
 
 .badge-headsalon {
-    background-color: red;
     margin-left: 5px;
 }
 
 .badge-contantsalon {
-    background-color: red;
     margin-top: -5px;
     margin-left: -2px;
     padding: 3px 4px;
