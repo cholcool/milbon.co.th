@@ -1,0 +1,1401 @@
+/* = reset
+================*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 1.5em;
+    text-align: center;
+    word-break: normal;
+    word-wrap: normal;
+    font-family: "Sukhumvit Set", "ggwp", "thaisansneue-regular", sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Sukhumvit Set", "ggwp", "thaisansneue-bold", sans-serif; 
+}
+
+.fontf-supermarket h1, .fontf-supermarket h2, .fontf-supermarket h3, .fontf-supermarket h4, .fontf-supermarket h5, .fontf-supermarket h6,
+.fontf-supermarket p, .fontf-supermarket div, .fontf-supermarket span {
+    font-family: "supermarket", "ggwp", "thaisansneue-bold", sans-serif !important; 
+}
+
+.fontf-DBhelvethaicaXli h1, .fontf-DBhelvethaicaXli h2, .fontf-DBhelvethaicaXli h3, .fontf-DBhelvethaicaXli h4, .fontf-DBhelvethaicaXli h5, .fontf-DBhelvethaicaXli h6,
+.fontf-DBhelvethaicaXli p, .fontf-DBhelvethaicaXli div, .fontf-DBhelvethaicaXli span {
+    font-family: "DBhelvethaicaXli", "ggwp", "thaisansneue-bold", sans-serif !important; 
+}
+
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    outline: none !important;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-weight: 600;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #000;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #000;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    border: 0;
+}
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+.fa-facebook-f {
+    background: #000;
+    color: #fff;
+    font-size: 0.1rem;
+    border-radius: 40%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.ccr-line {
+    width: 87px;
+    height: 3px;
+    background: #2a1e7d;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.ccr-line-under {
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.ccr-button {
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 18px 95px;
+    border-bottom: 5px solid #c86a43;
+    background: #eb7d4d;
+    color: #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: unset;
+    position: absolute;
+}
+
+.btn .badge {
+    position: absolute;
+    top: -7px;
+    right: -2px;
+    background-color: red;
+}
+
+.badge-headsalon {
+    background-color: red;
+    margin-left: 5px;
+}
+
+.badge-contantsalon {
+    background-color: red;
+    margin-top: -5px;
+    margin-left: -2px;
+    padding: 3px 4px;
+}
+
+.badge-danger {
+    position: absolute;
+    left: 0px;
+    background-color: red;
+}
+
+#ccr-back-top {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 50;
+    display: none;
+    width: 65px;
+    height: 65px;
+    background-image: url(../images/MilbonSmooth-icon-arrow1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+#milbon-link-top1 {
+    position: fixed;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+	/*background-image: url(../images/MilbonSmooth-icon-salonlist.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;*/
+}
+
+#milbon-link-top2 {
+    position: absolute;
+    top: 80px;
+    right: 5px;
+	/*background-image: url(../images/MilbonSmooth-icon-facebook.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;*/
+}
+
+#milbon-link-top3 {
+    position: absolute;
+    top: 130px;
+    right: 5px;
+	/*background-image: url(../images/MilbonSmooth-icon-instagram.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;*/
+}
+
+#milbon-link-top4 {
+    position: absolute;
+    top: 180px;
+    right: 5px;
+	/*background-image: url(../images/MilbonSmooth-icon-line.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;*/
+}
+
+#milbon-link-top1,
+#milbon-link-top2,
+#milbon-link-top3,
+#milbon-link-top4 {
+    font-size: 1.2em;
+    right: 5px;
+    bottom: 5px;
+    z-index: 50;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    opacity: 1;
+    display: inline-block;
+}
+
+#milbon-link-top1:hover,
+#milbon-link-top2:hover,
+#milbon-link-top3:hover,
+#milbon-link-top4:hover {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 1s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: rubberBand;
+    -moz-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+.mask {
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    border: none;
+}
+
+#loader {
+    background: url(../images/loader1.gif) center center no-repeat;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    border: none;
+}
+
+.element_from_top {
+    top: -50px;
+    padding-right: 0px;
+    opacity: 0;
+    position: relative;
+}
+
+.element_from_bottom {
+    bottom: -50px;
+    padding-left: 0px;
+    opacity: 0;
+    position: relative;
+}
+
+.element_from_left {
+    left: -80px;
+    opacity: 0;
+    position: relative;
+    padding-left: 0;
+}
+
+.element_from_right {
+    right: -80px;
+    padding-left: 0px;
+    opacity: 0;
+    position: relative;
+}
+
+.element_fade_in {
+    opacity: 0;
+    position: relative;
+    padding-left: 0px;
+    right: 0px;
+}
+
+.bounceIn {
+    opacity: 0;
+    position: relative;
+    padding-left: 0px;
+    right: 0px;
+}
+/* - Header
+/*================================================*/
+.ccr-headarea {
+    padding-top: 30px;
+}
+
+.ccr-hbg {
+    background-image: url("../images/MilbonSmooth-product-Model.jpg");
+    border: none;
+    background-attachment: unset;
+    background-position: 100% 100%;
+    background-size: contain;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+.ccr-logo {
+    max-width: 200px;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    border: none;
+}
+/* - head text milbon
+===================================================*/
+.ccr-headtext {
+    float: right;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.ccr-headtext h2 {
+    text-align: right;
+    color: #339;
+    font-size: 2em;
+    line-height: normal;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ccr-headtext1 {
+    float: right;
+    margin-top: -30px;
+}
+
+.ccr-headtext1 h3 {
+    text-align: right;
+    color: #339;
+    font-size: 1.5em;
+    font-weight: 0;
+    line-height: normal;
+    padding-top: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+}
+
+.ccr-headtext1 h4 {
+    text-align: right;
+    color: #339;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    font-weight: 0;
+    line-height: normal;
+    padding-top: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+}
+/* - menu
+===================================================*/
+
+
+/*=======slug========*/
+#ccr-header {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 55px;
+}
+
+#ccr-header .ccr-slug {
+    padding: 100px 0 100px 0px;
+}
+
+#ccr-header .ccr-slug h1 {
+    text-align: center;
+}
+
+#ccr-header .ccr-button {
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 18px 105px;
+    border-bottom: 5px solid #c86a43;
+    background: #eb7d4d;
+    color: #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+#ccr-header .ccr-button:hover {
+    background: #17c2a4;
+    border-bottom-color: #07997F;
+}
+
+/* - Section SERVICE
+===============================*/
+#ccr-service {
+	max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ccr-service-bg {
+    padding: 0px 0px 25px 0px;
+}
+
+#ccr-service .ccr-title img {
+    height: 100%;
+    width: 60%;
+    margin-top: -80px;
+    padding-top: -80px;
+}
+
+#ccr-service .ccr-item {
+    padding: 10px 0px 0px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ccr-service .ccr-first-iteam {
+    position: relative;
+    top: 0px;
+}
+
+#ccr-service .ccr-third-iteam {
+    position: relative;
+    top: -95px;
+}
+#ccr-service .ccr-first-iteam .img-uniro,
+#ccr-service .ccr-third-iteam .img-uniro {
+    position: absolute;
+    top: 0;
+}
+
+#ccr-service .ccr-first-iteam .img-uniro-circle,
+#ccr-service .ccr-third-iteam .img-uniro-circle {
+    -webkit-animation: spin 7s linear infinite;
+    -moz-animation: spin 7s linear infinite;
+    animation: spin 7s linear infinite;
+}
+
+#ccr-service .ccr-first-text {
+    float: left;
+}
+
+#ccr-service .ccr-first-text h1 {
+    color:#53413f; 
+    text-align:left; 
+    line-height:1; 
+    font-weight:normal; 
+}
+
+#ccr-service .ccr-first-text span {
+    color:#aaa; 
+    line-height:1;
+}
+
+#ccr-service .ccr-first-textbg {
+    display: inline-block;
+    background-color: #eee;
+    padding: 25px;
+}
+
+#ccr-service .ccr-second-iteam img {
+    width: 90%;
+}
+
+#ccr-service .ccr-second-text h4 {
+    margin-left: -80px;
+    margin-top: 100px;
+    padding: 0 0 -100px 0;
+    float: left;
+    color: #339;
+    font-size: 1.7em;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#ccr-service .ccr-service-slug {
+    text-align: center;
+}
+
+#ccr-service .ccr-item h3 {
+    padding-top: 50px;
+}
+
+
+/* Ccr-about-us
+===========================================*/
+.ccr-about-us-bg {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#ccr-about-us .ccr-line {
+    background: #b73c6d;
+}
+
+#ccr-about-us .milbon-free img {
+    width: 100%;
+    position: relative;
+    left: -0px;
+    padding-top: 10px;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#ccr-about-us .milbon-free-text h3 {
+    text-align: center;
+    padding: 0;
+    margin-left: -0px;
+    color: #000;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#ccr-about-us .milbon-free-text .milbon-free-text_span {
+    display: inline-block;
+    max-width: 140px;
+}
+
+#ccr-about-us .milbon-free-text .milbon-free-text_img {
+    float: left;
+    margin-left: 15px;
+}
+
+/* =  salon list top
+=================================*/
+#salonlist-top .salonlist-top-slug {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#salonlist-top .salonlist-top-slug h4 {
+    font-size: 1.8em;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#salonlist-top .salonlist-top-slug a {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    margin-bottom: 7px;
+    min-width: 100px;
+    max-width: 100%;
+}
+
+
+/*= salon list bottom 
+=================================*/
+#salonlist-bottom {
+    padding: 50px 0 0px 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#salonlist-bottom .salonlist-bottom-group a {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    margin-bottom: 7px;
+    min-width: 100px;
+    max-width: 100%;
+}
+
+
+/* - salon
+===============================*/
+section {
+    margin-bottom: 0;
+}
+
+.ccr-salon-bg {
+    text-align: center;
+    background: #fff;
+    color: #333;
+    padding: 5px 0 0px 0;
+}
+
+.ccr-salon-title {
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+
+.ccr-salon-item h3 {
+    color: #3c4761;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.ccr-salon-item img {
+    border-radius: 100%;
+    padding: 10px;
+    background: #696969;
+}
+
+.ccr-salon-slug {
+    text-align: center;
+}
+
+.ccr-salon-slug table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.ccr-salon-item i {
+    font-size: 11em;
+    color: #878787;
+}
+
+.designation {
+    color: #30bae7;
+    padding-bottom: 10px;
+}
+
+.ccr-social {
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.ccr-social i {
+    display: inline-block;
+    width: 20px;
+    padding: 1px;
+    font-size: 1.2em;
+    opacity: .5;
+    color: #000;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.ccr-social .fa-facebook-square:hover,
+ .ccr-social .fa-globe:hover,
+ .ccr-social .fa-instagram:hover {
+    opacity: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.ccr-social .fa-line {
+    background: url("../images/milbon-LINE-fa.png");
+    background-size: 21px;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    margin-left: 1px;
+}
+
+.ccr-social .fa-line:hover {
+    background: url("../images/milbon-LINE-off.png");
+    background-size: 21px;
+    color: #fff;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* - ccr-footer
+================================================*/
+
+.ccr-footer-bg {
+    background: #5bcbf5;
+    background: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #8edffd;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 50%;
+}
+
+.ccr-footer-bg h4 {
+    color: #fff;
+    line-height: 1.3px;
+    font-size: 1rem;
+    border: 0;
+    text-decoration: none
+}
+
+.ccr-footer-bg a:hover {
+    color: #fff;
+    line-height: 1.3px;
+    font-size: 1rem;
+    border: 0;
+    text-decoration: none
+}
+
+#ccr-footer .ccr-footer-menu li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#ccr-footer .ccr-footer-menu a li {
+    color: #fff;
+    display: none;
+}
+
+#ccr-footer .ccr-footer-menu  a:hover li {
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+}
+
+#ccr-footer .ccr-social img {
+    font-size: 0.8em;
+    background: none;
+    padding: 5px;
+    border-radius: 0;
+    border: 0;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    color: #fff;
+    margin: 3px auto;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+#ccr-footer .ccr-social .img-facebook:hover {
+    background: url("../images/20160328_Milbon_FB2.png");
+    color: none;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#ccr-footer .ccr-social .img-instagram:hover {
+    background: url("../images/20160325_Milbon_IG2.png");
+    color: none;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#ccr-footer .ccr-social .img-line:hover {
+    background: url("../images/20160325_Milbon_Line2.png");
+    color: none;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.ccr-social {
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* - animation
+========================================*/
+.animated-bounceIn {
+    -webkit-animation-name: bounceIn;
+    -moz-animation-name: bounceIn;
+    -o-animation-name: bounceIn;
+    animation-name: bounceIn;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    opacity: 1!important;
+}
+
+.animated {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+/* - isotop
+======================*/
+@media screen and (device-width: 320px) {
+    .ccr-headtext {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ccr-headtext h2 {
+        padding-right: 15px;
+        font-size: 1pt;
+    }
+
+    .ccr-headtext1 h3 {
+        padding-right: 15px;
+    }
+
+    .ccr-headtext1 h4 {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (device-width: 1024px) {
+    .ccr-headtext {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ccr-headtext h2 {
+        padding-right: 15px;
+    }
+
+    .ccr-headtext1 h3 {
+        padding-right: 15px;
+    }
+
+    .ccr-headtext1 h4 {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+	
+    #milbon-link-top1 {
+        position: absolute;
+        top: 30px;
+        right: 25px;
+    }
+
+    #milbon-link-top2 {
+        position: absolute;
+        top: 80px;
+        right: 25px;
+    }
+
+    #milbon-link-top3 {
+        position: absolute;
+        top: 130px;
+        right: 25px;
+    }
+
+    #milbon-link-top4 {
+        position: absolute;
+        top: 180px;
+        right: 25px;
+    }
+
+    #ccr-back-top {
+        bottom: 15px;
+        right: 25px;
+    }
+}
+
+.filter {
+    text-align: center;
+}
+
+.filter ul {
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 0 10px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 500px) {
+    .filter ul {
+        display: block;
+    }
+}
+
+.filter li {
+    float: left;
+    list-style: none;
+}
+
+@media (max-width: 500px) {
+    .filter li {
+        width: 100%;
+        float: none;
+    }
+}
+
+.filter li button {
+    border: none;
+    color: #202020;
+    font-size: 1em;
+    padding: 5px 10px;
+    outline: none;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .filter li button {
+        width: 100%;
+    }
+
+    .ccr-headtext {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ccr-headtext h2 {
+        font-size: 1.3rem;
+        font-weight: 200px;
+        line-height: 30px;
+        margin-top: -10px;
+        margin-right: -25px;
+    }
+
+    .ccr-headtext1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ccr-headtext1 h3 {
+        font-size: 0.9rem;
+        margin-right: -25px;
+    }
+
+    .ccr-headtext1 h4 {
+        font-size: 0.9em;
+        margin-right: -25px;
+    }
+
+    #ccr-service .ccr-first-text h1 {
+        font-size: 2rem;
+    }
+
+    #ccr-service .ccr-first-text h4 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ccr-service .ccr-second-text h4 {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ccr-about-us .ccr-about-us-slug h3 {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    #ccr-about-us .ccr-about-us-slug h4 {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .ccr-hbg {
+        background-image: url("../images/MilbonSmooth-product-Model-tablet.jpg");
+        background-position: center top;
+    }
+
+    .ccr-headarea {
+        padding-top: 40px;
+    }
+
+    #ccr-service .ccr-title img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ccr-service .ccr-item img {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ccr-about-us .milbon-free img {
+        width: 100%;
+        padding: 10px 0 0 0;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    #ccr-service .ccr-second-text h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #ccr-about-us .ccr-about-us-slug h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #ccr-about-us .ccr-about-us-slug h4 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #ccr-about-us .milbon-free-text h3 {
+        padding-right: 15px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #ccr-service .ccr-first-iteam {
+        padding-bottom: 225px;
+    }
+    #ccr-service .ccr-first-text {
+        position: relative;
+        top: 155px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ccr-hbg {
+        background-image: url("../images/MilbonSmooth-product-Model-mobile.jpg");
+    }
+
+    #ccr-service .ccr-first-text {
+        margin: 0;
+    }
+    #ccr-service .ccr-luna-mobile {
+        position: absolute;
+        top: 0;
+    }
+    #ccr-service .ccr-morph-mobile {
+        float: right;
+        left: 65px;
+    }
+    #ccr-service .ccr-rubick-mobile {
+        margin-top: 3%;
+        margin-left: 28%;
+    }
+}
+
+.filter li button:hover,
+.filter li button.selected {
+    color: #000;
+}
+
+.isotope {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.isotope,
+.isotope li {
+	/* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope li {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope li.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+textarea::-webkit-input-placeholder {
+ /* WebKit browsers */
+    color: #999;
+}
+
+textarea:-moz-placeholder {
+ /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+textarea::-moz-placeholder {
+ /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+textarea:-ms-input-placeholder {
+ /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.grid {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.grid div.test {
+    display: block;
+    width: 100%;
+    opacity: 0;
+}
+
+.grid div.shown {
+    opacity: 1;
+}
+
+/* Effect 2: Move Up */
+.grid.effect .animate {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    -moz-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    to {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes moveUp {
+    to {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rubberBand {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        -moz-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        -moz-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        -moz-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        -moz-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, .95, 1);
+        -moz-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes rubberBand {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        -moz-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        -moz-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        -moz-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        -moz-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, .95, 1);
+        -moz-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.rubberBand {
+    -webkit-animation-name: rubberBand;
+    -moz-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

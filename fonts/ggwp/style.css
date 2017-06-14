@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@font-face {
+font-family: 'ggwp';
+font-weight: bold;
+font-style: normal;
+src: url('ggwp.ttc') format('truetype');
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+font-weight: bold;
+font-style: normal;
+font-family: 'thaisansneue-bold';
+src: url('ThaiSansNeue-Bold.ttf') format('truetype');
+}
+@font-face {
+font-weight: normal;
+font-style: normal;
+font-family: 'thaisansneue-regular';
+src: url('ThaiSansNeue-Regular.ttf') format('truetype');
+}
