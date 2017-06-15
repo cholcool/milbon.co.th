@@ -222,7 +222,7 @@ input, select {
     font-size: 10px;
     font-weight: unset;
     position: absolute;
-    background-color: black;
+    background-color: red;
 }
 
 .btn .badge {
